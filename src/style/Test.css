@@ -1,0 +1,118 @@
+
+.testSlider .carousel-prev:before{
+  background-image:url(../images/back_icon.png);
+ width:50px;
+ height:50px;
+  background-color:#FF4F81;;
+}
+.testSlider .carousel-next:before{
+    background-image:url(../images/forward_icon.png);
+    width:50px;
+    height:50px;
+    background-color:#FF4F81;;
+  
+  }
+.slideTest{
+   
+    display:grid;
+    grid-template-columns: 1fr;
+   justify-content: center;
+  
+}
+
+*{
+    box-sizing: border-box;
+}
+.testSlider{
+   display:grid;
+   grid-template-columns: 1fr;
+    margin:0 auto;
+    height:500px; 
+}
+.testSlider .slideTest .mainTest{
+    padding-top:50px;
+
+    background-color: #C4DFF6;
+  
+}
+.testSlider .slideTest .mainTest .rightTest{
+
+    height:55%;
+    display:grid;
+    grid-template-columns: 35% 40%;
+    width:70%;
+    margin-top:20px;
+    padding-top:35px;
+    
+}
+
+.mainTest .rightTest h2{
+    margin:0px;
+    font-size:20px;
+    text-align: left;
+    font-family: 'Roboto',sans-serif;
+    padding-left:10px;
+    color:#FF4F81;
+}
+.mainTest .rightTest div{
+    margin-top:20px;
+    margin-left:10px;
+}
+.mainTest .rightTest h6{
+    text-align:left;
+    font-family:'Roboto',sans-serif;
+    padding-left:10px;
+    color:#6c757d;
+    letter-spacing: 2px;
+}
+ .mainTest .leftTest{
+   
+    height:55%;
+    background-color: #fff;
+    margin:20px;
+    width:80%;
+    justify-self: right;
+    padding:20px 10px 0px 10px;
+    text-align:left;
+}
+
+.mainTest .leftTest p{
+    font-size:1em;
+    letter-spacing: 2px;
+    line-height:2em;
+    font-family: 'Open San',sans-serif;
+    color:#6c757d;
+    padding:10px;
+}
+
+.mainTest .leftTest p .leftQ,.rightQ{
+font-size:20px;
+color:#000;
+margin:10px;
+}
+
+.rightTest img{
+
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    justify-self: right;
+}
+
+.testSlider .slideTest .mainTest{
+    display:grid  !important;
+    grid-template-columns: 65% 30%;
+    grid-template-rows: 1fr;
+    height:350px;
+    margin-right:10px;
+   justify-content: center;
+    width:90%;
+}
+.testSlider .carousel-row{
+    padding-left:20px;
+    padding-right:20px;
+}
+.testSlider{
+    height:70%;
+    margin:20px;
+}

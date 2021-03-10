@@ -1,0 +1,18 @@
+.routeHead{
+   color:#fff;
+    height:60px;
+    padding-top:20px;
+    background-color: #FF4F81;
+}
+
+.routeHead:hover{
+    background-color: #095880;
+   animation-name:ease;
+   animation:ease 500ms;
+   cursor:pointer;
+}
+
+.routeMap{
+    height:300px;
+   
+}

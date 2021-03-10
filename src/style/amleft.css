@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+.amSliderWrapper{
+   
+    width: 70%;
+    height: 500px;
+    background-color:#FF4F81;
+    font-family: 'Robot',sans-serif;
+    color:#fff; 
+    line-height: 1.5;
+    padding-top:60px;
+    justify-self: end;
+  
+}
+
+.amSliderWrapper div>h4{
+font-size:20px;
+font-weight: 600;
+margin-bottom:20px;
+}
+
+.amSliderWrapper div>h2{
+    margin-bottom: 20px;
+}
+.amSliderWrapper div>h6{
+    text-align: justify;
+    font-size:18px;
+    width:90%;
+    margin:0 auto;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    margin-bottom:30px;
+}
+
+.amslider .carousel-dots li button:before {
+    color:#fff;
+    font-size:70px;
+    opacity:0.5;
+  }
+
+  .amslider .carousel-dots li.carousel-dots-active button:before {
+    color: #FFF;
+    font-size:70px;
+    opacity:2;
+  }

@@ -1,0 +1,104 @@
+.contact{
+    height:550px;
+    width:80%;
+    background-color:#0C2149;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 1fr;
+}
+.contact .address{
+    
+    height:100%;
+}
+.contact .Form{
+    
+    height:100%;
+}
+.contact .address {
+text-align: left;
+color:#fff;
+padding-top:65px;
+padding-left:60px;
+}
+
+.contact .address .cName{
+    margin-top:20px;
+}
+
+.contact .address .cName h5{
+    font-size:28px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 600;
+}
+.contact .Form .ct{
+    color:#fff;
+    margin-top:30px;
+    font-size:40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding:10px;
+    text-align: left;
+   grid-row:1/2;
+   grid-column: 1/2;
+   margin-left:210px;
+}
+
+.contact .Form form{
+    align-content:flex-start;
+    width:100%;
+    
+  
+} 
+
+.contact .Form form  input[type=text]{
+    color:#fff;
+    background-color:transparent;
+    align-items:left;
+    border:1px solid #fff;
+    padding-left:10px;
+    height:40px;
+    width:220px;
+    margin:10px;
+   
+
+}
+
+.contact .Form form  input[type=email],input[type=phone]{
+    color:#fff;
+    background-color:transparent;
+    align-items:left;
+    border:1px solid #fff;
+    padding-left:10px;
+    height:40px;
+    width:220px;
+    margin:10px;
+
+}
+.contact .Form form input[type=submit]:hover{
+    background-color: #05CC47;
+}
+
+.contact .Form form input[type=submit]{
+    width:100px;
+    height:40px;
+    display:block;
+    margin-right:0px;
+    margin-top:10px;
+    margin-left:210px;
+    background-color:#0071BC;
+    border:none;
+    color:#fff;
+    font-size:20px;
+    font-family: 'Roboto',sans-serif;
+    font-weight:100;
+}
+.contact .Form form textarea{
+    background-color:transparent;
+    border:1px solid #fff;
+    width:460px;
+    padding-left:10px;
+    height:150px;
+    margin-top:15px;
+    
+}

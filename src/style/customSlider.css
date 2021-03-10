@@ -1,0 +1,57 @@
+.slider div{
+    
+    color:#fff;
+    text-align: left;
+   height:50vh;
+   
+}
+.slider div> h3{
+    font-weight:600;
+    font-size:3.5em;
+    font-family: 'Robot',sans-serif;
+   
+    margin:15px;
+    width:800px;
+}
+
+ .slider .dots{
+     background-color: #FF4F81 ;
+ }
+ .cslider{
+    margin-top:90px;
+    padding-top:50px;
+ }
+
+ .slider div>p{
+     font-size:1.2em;
+     font-weight:150;
+     font-family: 'Roboto',sans-serif;
+     margin:15px;
+ }
+
+ .slider div>button{
+     background-color:#FF4F81;
+     color:#fff;
+     height:60px;
+    width:150px;
+     border:1px solid #FF4F81;
+     margin-top:35px;
+    margin-left:15px;
+    font-family: 'Robot',sans-serif;
+    font-weight: 150;
+    font-size:1em;
+ }
+ .slider .carousel-dots li.carousel-dots-active button:before {
+   color: #FF4F81;
+   font-size:70px;
+   opacity:2;
+ }
+ .slider .carousel-dots li button:before {
+    color:#fff;
+    font-size:70px;
+    opacity:5;
+  }
+
+  .slider .carousel-dots{
+      text-align: left;
+  }

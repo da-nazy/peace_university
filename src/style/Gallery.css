@@ -1,0 +1,21 @@
+.gallerySection{
+display:grid;
+height: 400px;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+width:70%;
+margin:0 auto;
+gap:10px;
+}
+
+.gallerySection .img{
+    
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:90%;
+    height:350px;
+}
+
+.gallerySection>div:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,36 @@
+.lgh{
+
+    display:grid;
+    width:80%;
+    margin:0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
+   text-align: left;
+   padding-top:30px;
+   padding-left:40px;
+}
+
+.lgh div {
+
+height: 240px;
+}
+.lgh div i{
+
+font-size:35px;
+}
+.lgh div h4{
+    margin-top:20px;
+    color:#FF4F81;
+    font-weight: 700;
+    line-height: 1.2px;
+    font-size:25px;
+    margin-bottom: 20px;
+}
+.lgh div p{
+    font-size: 18px;
+    line-height: 1.8em;
+    color:#7777A1;
+    letter-spacing: 2px;
+    width:70%;
+ 
+
+}

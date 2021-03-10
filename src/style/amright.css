@@ -1,0 +1,53 @@
+
+.amright{
+width: 70%;
+padding-top:50px;
+background-color: #fff;
+height:500px;  
+padding-left:35px;
+}
+  .nav  {
+   
+      display: flex;
+      justify-content: flex-end;
+      font-weight: 600;
+      font-size:1em;
+  }
+
+.nav-item .nav-link{
+    background-color:#fff;
+    color:#000;
+    font-weight: 600;
+    font-size:1em;
+    width:150px;
+    height:55px;
+    
+    
+}
+.amright #pills-tab .active{
+    background-color: #FF4F81;
+    border-bottom:5px solid #000;
+    border-radius: 0px;
+    font-family: 'Robot',sans-serif;
+    font-size:1em;
+    font-weight: 600;
+    
+}
+
+.amright .tab-content{
+  
+    font-size:1.5em;
+    color:#000;
+    text-align: left;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.amright .amfoot{
+
+    text-align: left;
+    font-family: 'Open Sans',sans-serif;
+    font-size:20px;
+    color:#797979;
+    line-height:1.7em;
+    font-weight: 400;
+}

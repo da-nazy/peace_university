@@ -1,0 +1,39 @@
+.service{
+margin-top:30px;
+
+}
+.service h2{
+    font-size:50px;
+    margin-bottom:50px;
+
+}
+.service .serviceSection{
+
+    width:85%;
+    margin:0 auto;
+    justify-content: center;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.service .serviceSection div  div{
+
+    margin-top:10px;
+    width:70%;
+    height:65%;
+   padding-bottom: 70px;
+    margin:auto auto;
+  
+}
+.service div>i{
+    font-size:95px;
+    text-align:center;
+    
+}
+
+.service .serviceSection div  h4{
+  color: #FF565A;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 600;
+    font-size:20px;
+    margin-top:25px;
+}

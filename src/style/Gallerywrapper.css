@@ -1,0 +1,15 @@
+.gwrapper{
+    background-color:#E8F4FF;
+    height:900px;
+    padding-top:20px;
+}
+
+.gwrapper h2{
+    font-family: 'Roboto',sans-serif;
+    font-size:40px;
+    font-weight: 600;
+    color:#000;
+ 
+    margin-top:10px;
+    margin-bottom: 20px;
+}

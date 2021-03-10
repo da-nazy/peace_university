@@ -1,0 +1,44 @@
+.test{
+    width:100%;
+    
+    height:120px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+
+.carosel{
+    list-style-type: none;
+
+    width:100%;
+    height:300px;
+    display: inline-block;
+ 
+}
+.carosel img{
+    width: 200px;
+    height:200px;
+
+  background-size: contain;
+  
+}
+
+.carousel-indicators .active{
+    background-color: #f00;
+  
+}
+.carousel-indicators li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: #404040;
+}
+
+.headerWrapper{
+    background-image:url('../images/unibackground.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    width:100%;
+    height:100vh;
+}
