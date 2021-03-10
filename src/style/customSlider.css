@@ -9,7 +9,6 @@
     font-weight:600;
     font-size:3.5em;
     font-family: 'Robot',sans-serif;
-   
     margin:15px;
     width:800px;
 }
@@ -20,6 +19,9 @@
  .cslider{
     margin-top:90px;
     padding-top:50px;
+    position:relative;
+    z-index:4;
+    padding-left:60px;
  }
 
  .slider div>p{
